@@ -13,5 +13,11 @@ namespace DavidsBot.Modules
         {
             await ReplyAsync("Hi I am Davids bot whaddup fam");
         }
+
+        [Command("fuck_chris")]
+        public async Task FuckChrisAsync()
+        {
+            await ReplyAsync("Yeah fuck that guy");
+        }
     }
 }
