@@ -1,0 +1,11 @@
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.deps.json
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.runtimeconfig.json
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.runtimeconfig.dev.json
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.dll
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.csprojResolveAssemblyReference.cache
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.csproj.CoreCompileInputs.cache
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.AssemblyInfoInputs.cache
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.AssemblyInfo.cs
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.pdb
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.dll
+C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.pdb
