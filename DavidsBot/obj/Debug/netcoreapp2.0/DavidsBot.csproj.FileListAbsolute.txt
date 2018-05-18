@@ -9,3 +9,14 @@ C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.
 C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.pdb
 C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.dll
 C:\Users\gameuser\Desktop\DavidsBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.pdb
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.deps.json
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.runtimeconfig.json
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.runtimeconfig.dev.json
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.dll
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\bin\Debug\netcoreapp2.0\DavidsBot.pdb
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.AssemblyInfoInputs.cache
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.AssemblyInfo.cs
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.dll
+C:\Users\David\Desktop\PCBACKUP\Projects\Discord\Bot\DiscordBot\DavidsBot\obj\Debug\netcoreapp2.0\DavidsBot.pdb
