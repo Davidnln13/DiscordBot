@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DavidsBot.Modules
 {
-    public class Commands : ModuleBase<SocketCommandContext>
+    public class Repeat : ModuleBase<SocketCommandContext>
     {
-        [Command("Commands")]
-        public async Task CommandsAsync()
+        [Command("Repeat")]
+        public async Task HelloWorldAsync([Remainder] string message = "nothing apparently")
         {
             //pretify
             EmbedBuilder builder = new EmbedBuilder();
@@ -20,13 +20,9 @@ namespace DavidsBot.Modules
             //    .WithDescription("Fuckers")
             //    .WithColor(Color.Red);
 
-            builder.WithTitle("Commands")
-               .WithDescription("~Welcome \n" +
-                                "~Commands \n" +
-                                "~WhoAmI \n" +
-                                "~Insult name \n" +
-                                "~Repeat")
-               .WithColor(Color.Blue);
+            builder.WithTitle(Context.User.Mention + " wants me to say")
+               .WithDescription(message)
+               .WithColor(Color.Green);
 
             await ReplyAsync("", false, builder.Build());
 
