@@ -10,7 +10,7 @@ namespace DavidsBot.Modules
     public class Welcome :  ModuleBase<SocketCommandContext>
     {
         [Command("Welcome")]
-        public async Task HelloWorldAsync()
+        public async Task WelcomeAsync()
         {
             //pretify
             EmbedBuilder builder = new EmbedBuilder();

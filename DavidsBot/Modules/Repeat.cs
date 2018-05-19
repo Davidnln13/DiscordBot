@@ -10,7 +10,7 @@ namespace DavidsBot.Modules
     public class Repeat : ModuleBase<SocketCommandContext>
     {
         [Command("Repeat")]
-        public async Task HelloWorldAsync([Remainder] string message = "nothing apparently")
+        public async Task RepeatAsync([Remainder] string message = "nothing apparently")
         {
             //pretify
             EmbedBuilder builder = new EmbedBuilder();

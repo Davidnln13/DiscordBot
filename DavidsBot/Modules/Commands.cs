@@ -24,8 +24,12 @@ namespace DavidsBot.Modules
                .WithDescription("~Welcome \n" +
                                 "~Commands \n" +
                                 "~WhoAmI \n" +
-                                "~Insult name \n" +
-                                "~Repeat")
+                                "~Insult \n" +
+                                "~Repeat \n" +
+                                "~Roll \n" +
+                                "~Flip \n" +
+                                "~Image \n" +
+                                "~DescribeCommand CommandName")
                .WithColor(Color.Blue);
 
             await ReplyAsync("", false, builder.Build());
