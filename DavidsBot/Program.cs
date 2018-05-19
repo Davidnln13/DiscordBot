@@ -26,8 +26,10 @@ namespace DavidsBot
                 .BuildServiceProvider();
 
             string botToken = "NDQ3MDYyNTM0MDg5MDgwODMy.DeCS9Q.-ZdyyqNL45wW4kEDd3AJmcg4lG8";
+
             //event subscriptions 
             _client.Log += Log;
+            _client.UserJoined += AnnounceUserJoined;
 
             await RegisterCommandsAsync();
 
@@ -37,6 +39,13 @@ namespace DavidsBot
 
             await Task.Delay(-1);
 
+        }
+
+        private async Task AnnounceUserJoined(SocketGuildUser user)
+        {
+            var guild = user.Guild;
+            var channel = guild.DefaultChannel;
+            await channel.SendMessageAsync($"Welcome, {user.Mention}");
         }
 
         private Task Log(LogMessage arg)
