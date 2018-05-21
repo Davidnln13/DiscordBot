@@ -15,8 +15,8 @@ namespace DavidsBot.Modules
             //pretify
             EmbedBuilder builder = new EmbedBuilder();
 
-            string[] commandTitles = new string[9];
-            string[] commandDescriptions = new string[9];
+            string[] commandTitles = new string[13];
+            string[] commandDescriptions = new string[13];
 
             commandTitles[0] = "Commands";
             commandTitles[1] = "DescribeCommand";
@@ -27,6 +27,10 @@ namespace DavidsBot.Modules
             commandTitles[6] = "Roll";
             commandTitles[7] = "Welcome";
             commandTitles[8] = "WhoAmI";
+            commandTitles[9] = "Compliment";
+            commandTitles[10] = "Magic8";
+            commandTitles[11] = "Percentage";
+            commandTitles[12] = "DickSize";
 
             commandDescriptions[0] = "Lists the commands";
             commandDescriptions[1] = "Type a command name after this command to find out what it does";
@@ -37,14 +41,19 @@ namespace DavidsBot.Modules
             commandDescriptions[6] = "Rolls a number between the minimum and maximum you give it e.g. ~roll 1 100 rolls a number between 1 and 100";
             commandDescriptions[7] = "Provides a welcome message";
             commandDescriptions[8] = "Command to show who you are, what you're typing and where you're typing it";
+            commandDescriptions[9] = "Type a name after this command to compliment that person";
+            commandDescriptions[10] = "Ask me anything";
+            commandDescriptions[11] = "Use this command to get a percentage on how likely something is";
+            commandDescriptions[12] = "How big is it c'mon be honest now";
 
-            for(int i = 0; i < 9; i++)
+
+            for (int i = 0; i < 13; i++)
             {
                 if(commandTitles[i] == commandName)
                 {
                     builder.WithTitle(commandTitles[i])
                         .WithDescription(commandDescriptions[i])
-                        .WithColor(Color.Green);
+                        .WithColor(Color.Gold);
 
                     await ReplyAsync("", false, builder.Build());
                 }

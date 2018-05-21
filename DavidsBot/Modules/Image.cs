@@ -10,18 +10,19 @@ namespace DavidsBot.Modules
     public class Image : ModuleBase<SocketCommandContext>
     {
         [Command("Image")]
-        public async Task ImageAsync([Remainder] string message)
+        public async Task ImageAsync()
         {
             //pretify
             EmbedBuilder builder = new EmbedBuilder();
 
-          
+
             builder.WithTitle("The Man")
                .WithDescription("You Know it")
-               .WithThumbnailUrl("https://pixel.nymag.com/imgs/daily/intelligencer/2018/05/16/trump/16-trump-happy.w710.h473.jpg")
-               .WithColor(Color.DarkMagenta);
+               .WithColor(Color.LightOrange)
+               .WithThumbnailUrl("https://www.askideas.com/media/48/Donald-Trump-Funny-Smiling-Picture.jpg");
+              
 
-            await ReplyAsync("", false, builder.Build());
+            await Context.Channel.SendMessageAsync("", false, builder);
 
 
         }

@@ -22,7 +22,7 @@ namespace DavidsBot.Modules
 
             builder.WithTitle("Welcome To My Bot")
                .WithDescription("Check commands with ~Commands")
-               .WithColor(Color.Red);
+               .WithColor(Color.Purple);
 
             await ReplyAsync("", false, builder.Build());
 

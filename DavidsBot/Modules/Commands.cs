@@ -29,6 +29,10 @@ namespace DavidsBot.Modules
                                 "~Roll \n" +
                                 "~Flip \n" +
                                 "~Image \n" +
+                                "~Compliment \n" +
+                                "~DickSize \n" +
+                                "~Magic8 \n" +
+                                "~Percentage \n" +
                                 "~DescribeCommand CommandName")
                .WithColor(Color.Blue);
 

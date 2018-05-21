@@ -22,7 +22,7 @@ namespace DavidsBot.Modules
 
             builder.WithTitle(Context.User.Mention + " wants me to say")
                .WithDescription(message)
-               .WithColor(Color.Green);
+               .WithColor(Color.Teal);
 
             await ReplyAsync("", false, builder.Build());
 

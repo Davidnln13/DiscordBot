@@ -27,11 +27,18 @@ namespace DavidsBot.Modules
             {
                 outcome = "Tails";
             }
+            string link = "";
+            if (outcome == "Tails")
+                link = "https://www.eestipank.ee/sites/eestipank.ee/files/2eur_eu_lipp_rev_0.png";
+            else
+                link = "http://www.stickpng.com/assets/images/580b585b2edbce24c47b27c1.png";
+
             builder.WithTitle("Flipping a coin")
                .WithDescription(outcome)
-               .WithColor(Color.DarkMagenta);
+               .WithColor(Color.LighterGrey)
+               .WithThumbnailUrl(link);
 
-            await ReplyAsync("", false, builder.Build());
+            await Context.Channel.SendMessageAsync("", false, builder);
 
         }
 

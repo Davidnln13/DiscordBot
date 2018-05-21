@@ -25,7 +25,7 @@ namespace DavidsBot.Modules
             
             builder.WithTitle("Rolling number between "+ min + " and " + max)
                .WithDescription(ranNum.ToString())
-               .WithColor(Color.DarkTeal);
+               .WithColor(Color.Red);
 
             await ReplyAsync("", false, builder.Build());
 
