@@ -15,8 +15,8 @@ namespace DavidsBot.Modules
             //pretify
             EmbedBuilder builder = new EmbedBuilder();
 
-            string[] commandTitles = new string[13];
-            string[] commandDescriptions = new string[13];
+            string[] commandTitles = new string[14];
+            string[] commandDescriptions = new string[14];
 
             commandTitles[0] = "Commands";
             commandTitles[1] = "DescribeCommand";
@@ -31,6 +31,7 @@ namespace DavidsBot.Modules
             commandTitles[10] = "Magic8";
             commandTitles[11] = "Percentage";
             commandTitles[12] = "DickSize";
+            commandTitles[13] = "Mute";
 
             commandDescriptions[0] = "Lists the commands";
             commandDescriptions[1] = "Type a command name after this command to find out what it does";
@@ -45,9 +46,10 @@ namespace DavidsBot.Modules
             commandDescriptions[10] = "Ask me anything";
             commandDescriptions[11] = "Use this command to get a percentage on how likely something is";
             commandDescriptions[12] = "How big is it c'mon be honest now";
+            commandDescriptions[13] = "monkaS";
 
 
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 if(commandTitles[i] == commandName)
                 {

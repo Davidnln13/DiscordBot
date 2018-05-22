@@ -33,6 +33,7 @@ namespace DavidsBot.Modules
                                 "~DickSize \n" +
                                 "~Magic8 \n" +
                                 "~Percentage \n" +
+                                "~Mute \n" +
                                 "~DescribeCommand CommandName")
                .WithColor(Color.Blue);
 
